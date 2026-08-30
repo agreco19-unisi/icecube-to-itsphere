@@ -16,7 +16,7 @@
   --teal-soft:#9FC4CC;
   --purple:#7A6FE0;
   --amber:#C77A30;
-  --paper:#FAFBFC;
+  --paper:#141414;
   --mist:#EDF3F5;
   --line:#D6DEE5;
   --mute:#5A6B7B;
@@ -110,11 +110,17 @@ h1{
 .btn-purple{background:var(--purple);color:#fff}
 */
 
-footer{
-  border-top:1px solid var(--line);margin-top:56px;padding-top:20px;
-  font-size:.85rem;color:var(--mute);
+.contact{
+  font-family:"IBM Plex Mono",ui-monospace,monospace;
+  font-size:.88rem;display:flex;flex-direction:column;
+  gap:10px;align-items:flex-start;
 }
-footer .mono{font-size:.8rem}
+.contact a{
+  color:var(--ink);text-decoration:none;
+  border-bottom:1.5px solid var(--teal-soft);padding-bottom:1px;
+}
+.contact a:hover{border-color:var(--teal);color:var(--teal)}
+.section-label.tight{margin-top:30px}
 
 @media (prefers-reduced-motion:no-preference){
   .hero-inner>*,.constellation{animation:rise .7s ease both}
@@ -236,9 +242,12 @@ footer .mono{font-size:.8rem}
     -->
   </div>
 
-  <footer>
-    <p>Contact&nbsp;·&nbsp;<span class="mono">a.greco19@student.unisi.it&nbsp;·&nbsp;antonio.greco@pi.infn.it</span></p>
-  </footer>
+  <p class="section-label tight">Contact</p>
+
+  <div class="contact">
+    <a href="mailto:a.greco19@student.unisi.it">a.greco19@student.unisi.it</a>
+    <a href="mailto:antonio.greco@pi.infn.it">antonio.greco@pi.infn.it</a>
+  </div>
 
 </main>
 
