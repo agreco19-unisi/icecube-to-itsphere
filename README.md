@@ -29,6 +29,4 @@ The dataset comes from a major European bank and is confidential; **data and cod
 
 ## Contact
 
-`a.greco19@student.unisi.it` 
-`antonio.greco@pi.infn.it`
-
+`a.greco19@student.unisi.it` · `antonio.greco@pi.infn.it`
